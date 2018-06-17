@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ru.kpfu.aigul.controllers.MainController">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <fx:include source="header.fxml" />
+         </children></StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <fx:include source="tasks_list.fxml" />
+         </children></StackPane>
+      <StackPane prefHeight="80.0" prefWidth="200.0">
+         <children>
+            <fx:include source="control.fxml" />
+         </children></StackPane>
+   </children>
+</VBox>
